@@ -78,7 +78,7 @@ python evaluate.py
 ## Run it locally
 
 ```bash
-git clone https://github.com/<your-username>/CodeAlpha_FAQChatbot.git
+git clone https://github.com/MennatullahMourad/CodeAlpha_FAQChatbot.git
 cd CodeAlpha_FAQChatbot
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
