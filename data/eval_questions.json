@@ -1,0 +1,422 @@
+{
+ "dev": [
+  [
+   "can you explain what AI is",
+   1
+  ],
+  [
+   "how do machines learn from data",
+   2
+  ],
+  [
+   "my model is great on training data but bad on test data, why?",
+   11
+  ],
+  [
+   "tips to stop my model from overfiting",
+   12
+  ],
+  [
+   "what does a CNN do",
+   27
+  ],
+  [
+   "how is an lstm different from a normal rnn",
+   29
+  ],
+  [
+   "explain attention mechanism",
+   31
+  ],
+  [
+   "what is the point of a validation set",
+   50
+  ],
+  [
+   "precision or recall which one matters",
+   53
+  ],
+  [
+   "what's tf idf used for",
+   41
+  ],
+  [
+   "how does a random forest make predictions",
+   19
+  ],
+  [
+   "what's a GAN made of",
+   34
+  ],
+  [
+   "how do I pick the learning rate",
+   17
+  ],
+  [
+   "lemmatize vs stem",
+   40
+  ],
+  [
+   "what does an epoch mean in training",
+   35
+  ],
+  [
+   "what is k fold",
+   51
+  ],
+  [
+   "what are embeddings in nlp",
+   43
+  ],
+  [
+   "how does yolo detect objects",
+   47
+  ],
+  [
+   "what is chatgpt / an llm",
+   6
+  ],
+  [
+   "why use pretrained models",
+   33
+  ],
+  [
+   "what's the weather in cairo today",
+   null
+  ],
+  [
+   "how do I cook pasta",
+   null
+  ],
+  [
+   "who won the football match yesterday",
+   null
+  ],
+  [
+   "recommend me a good movie",
+   null
+  ],
+  [
+   "what is the capital of france",
+   null
+  ],
+  [
+   "how much does an iphone cost",
+   null
+  ],
+  [
+   "write me a poem about the sea",
+   null
+  ],
+  [
+   "what time is it",
+   null
+  ],
+  [
+   "what is artificial inteligence",
+   1
+  ],
+  [
+   "difference between ML and deep learning",
+   3
+  ],
+  [
+   "what is labelled data learning called",
+   7
+  ],
+  [
+   "explain clustering without labels",
+   8
+  ],
+  [
+   "agent rewards and environment learning",
+   9
+  ],
+  [
+   "regression or classification for predicting price",
+   10
+  ],
+  [
+   "model too simple and performs badly",
+   13
+  ],
+  [
+   "what does regularisation do",
+   15
+  ],
+  [
+   "how are weights updated during training gradient",
+   16
+  ],
+  [
+   "what does an activation function like relu do",
+   26
+  ],
+  [
+   "how do transformers work in nlp",
+   30
+  ],
+  [
+   "why do we use dropout layers",
+   32
+  ],
+  [
+   "what is backprop",
+   25
+  ],
+  [
+   "how many samples per batch",
+   36
+  ],
+  [
+   "remove common words like the and is",
+   39
+  ],
+  [
+   "how to measure similarity between two documents",
+   42
+  ],
+  [
+   "positive or negative review classification",
+   44
+  ],
+  [
+   "finding person and place names in text",
+   45
+  ],
+  [
+   "confusion matrix explained",
+   52
+  ],
+  [
+   "what is f1",
+   54
+  ],
+  [
+   "my dataset is imbalanced and accuracy is 95%",
+   55
+  ],
+  [
+   "test data leaking into training",
+   56
+  ],
+  [
+   "flipping and rotating images to get more data",
+   49
+  ],
+  [
+   "what are hyper parameters",
+   22
+  ],
+  [
+   "how to book a flight to dubai",
+   null
+  ],
+  [
+   "what is the best pizza in town",
+   null
+  ],
+  [
+   "tell me a joke",
+   null
+  ],
+  [
+   "how do I fix my car engine",
+   null
+  ],
+  [
+   "what is the price of bitcoin",
+   null
+  ],
+  [
+   "translate hello to spanish",
+   null
+  ],
+  [
+   "what is a support vector machine",
+   null
+  ],
+  [
+   "how does naive bayes work",
+   null
+  ],
+  [
+   "what is principal component analysis",
+   null
+  ],
+  [
+   "how do I install pytorch on windows",
+   null
+  ],
+  [
+   "what is xgboost",
+   null
+  ],
+  [
+   "what is an autoencoder",
+   null
+  ],
+  [
+   "what is quantum computing",
+   null
+  ],
+  [
+   "how to deploy a model with docker",
+   null
+  ]
+ ],
+ "test": [
+  [
+   "what is ai in simple words",
+   1
+  ],
+  [
+   "is deep learning the same thing as machine learning",
+   3
+  ],
+  [
+   "what does a data scientist do",
+   4
+  ],
+  [
+   "models that generate images and text",
+   5
+  ],
+  [
+   "training with input output pairs",
+   7
+  ],
+  [
+   "learning by trial and error with rewards",
+   9
+  ],
+  [
+   "my training accuracy is 99% but validation is 70%",
+   11
+  ],
+  [
+   "how to avoid overfit in neural nets",
+   12
+  ],
+  [
+   "high bias vs high variance",
+   14
+  ],
+  [
+   "what does the step size in optimization control",
+   17
+  ],
+  [
+   "how does a tree based model split data",
+   18
+  ],
+  [
+   "grouping customers into k groups",
+   20
+  ],
+  [
+   "creating new input variables for a model",
+   21
+  ],
+  [
+   "what are neurons and layers",
+   23
+  ],
+  [
+   "vanishing gradient problem in recurrent networks",
+   29
+  ],
+  [
+   "self attention transformer architecture",
+   30
+  ],
+  [
+   "generator and discriminator",
+   34
+  ],
+  [
+   "splitting sentences into words",
+   38
+  ],
+  [
+   "word2vec glove vectors",
+   43
+  ],
+  [
+   "detecting emotions or opinions in tweets",
+   44
+  ],
+  [
+   "classify whole image vs locate objects",
+   48
+  ],
+  [
+   "how many folds for cross validation",
+   51
+  ],
+  [
+   "true positives and false negatives table",
+   52
+  ],
+  [
+   "harmonic mean of precision and recall",
+   54
+  ],
+  [
+   "what is fine tuning a model",
+   33
+  ],
+  [
+   "what does relu stand for and why use it",
+   26
+  ],
+  [
+   "how can i learn to play guitar",
+   null
+  ],
+  [
+   "what is the population of egypt",
+   null
+  ],
+  [
+   "best laptop for gaming",
+   null
+  ],
+  [
+   "how do i make a cake",
+   null
+  ],
+  [
+   "when is the next world cup",
+   null
+  ],
+  [
+   "how to lose weight fast",
+   null
+  ],
+  [
+   "what is logistic regression",
+   null
+  ],
+  [
+   "explain the kernel trick",
+   null
+  ],
+  [
+   "what is a markov chain",
+   null
+  ],
+  [
+   "how to use git branches",
+   null
+  ],
+  [
+   "what is batch normalization",
+   null
+  ],
+  [
+   "how much ram do i need for training",
+   null
+  ]
+ ]
+}

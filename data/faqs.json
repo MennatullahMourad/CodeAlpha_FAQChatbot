@@ -1,0 +1,478 @@
+[
+  {
+    "id": 1,
+    "category": "AI Basics",
+    "question": "What is artificial intelligence?",
+    "variants": [
+      "Define AI",
+      "What does AI mean?"
+    ],
+    "answer": "Artificial intelligence (AI) is the field of building computer systems that perform tasks normally requiring human intelligence, such as recognising images, understanding language, making decisions and learning from experience."
+  },
+  {
+    "id": 2,
+    "category": "AI Basics",
+    "question": "What is machine learning?",
+    "variants": [
+      "Define machine learning",
+      "What does ML mean?"
+    ],
+    "answer": "Machine learning (ML) is a subfield of AI where systems learn patterns from data instead of following hand-written rules. A model is trained on examples and then makes predictions on new, unseen data."
+  },
+  {
+    "id": 3,
+    "category": "AI Basics",
+    "question": "What is the difference between AI, machine learning and deep learning?",
+    "variants": [
+      "How are AI, ML and DL related?"
+    ],
+    "answer": "They are nested fields: AI is the broadest goal of making machines act intelligently; machine learning is one way to achieve AI by learning from data; deep learning is a subset of ML that uses multi-layer neural networks."
+  },
+  {
+    "id": 4,
+    "category": "AI Basics",
+    "question": "What is data science?",
+    "variants": [],
+    "answer": "Data science combines statistics, programming and domain knowledge to extract insights from data. It covers collecting and cleaning data, analysis, visualisation and often building ML models."
+  },
+  {
+    "id": 5,
+    "category": "AI Basics",
+    "question": "What is generative AI?",
+    "variants": [
+      "What are generative models?"
+    ],
+    "answer": "Generative AI refers to models that create new content — text, images, audio or code — that resembles their training data. Examples include large language models and diffusion image generators."
+  },
+  {
+    "id": 6,
+    "category": "AI Basics",
+    "question": "What is a large language model?",
+    "variants": [
+      "What is an LLM?"
+    ],
+    "answer": "A large language model (LLM) is a transformer-based neural network trained on huge amounts of text to predict the next token. After training it can answer questions, summarise, translate and write code."
+  },
+  {
+    "id": 7,
+    "category": "Machine Learning",
+    "question": "What is supervised learning?",
+    "variants": [
+      "Explain supervised learning"
+    ],
+    "answer": "In supervised learning the model is trained on labelled examples (input + correct output). Typical tasks are classification (predict a category) and regression (predict a number)."
+  },
+  {
+    "id": 8,
+    "category": "Machine Learning",
+    "question": "What is unsupervised learning?",
+    "variants": [
+      "Explain unsupervised learning"
+    ],
+    "answer": "Unsupervised learning finds structure in data without labels, for example grouping similar items (clustering) or compressing data into fewer dimensions (dimensionality reduction)."
+  },
+  {
+    "id": 9,
+    "category": "Machine Learning",
+    "question": "What is reinforcement learning?",
+    "variants": [
+      "Explain reinforcement learning"
+    ],
+    "answer": "In reinforcement learning an agent learns by interacting with an environment: it takes actions, receives rewards or penalties, and learns a policy that maximises total reward over time."
+  },
+  {
+    "id": 10,
+    "category": "Machine Learning",
+    "question": "What is the difference between classification and regression?",
+    "variants": [
+      "Classification vs regression"
+    ],
+    "answer": "Classification predicts a discrete label (spam / not spam, cat / dog), while regression predicts a continuous value (house price, temperature)."
+  },
+  {
+    "id": 11,
+    "category": "Machine Learning",
+    "question": "What is overfitting?",
+    "variants": [
+      "What does it mean when a model overfits?"
+    ],
+    "answer": "Overfitting happens when a model memorises the training data, including its noise, so it performs well on training data but poorly on new data. A large gap between training and validation scores is the usual sign."
+  },
+  {
+    "id": 12,
+    "category": "Machine Learning",
+    "question": "How can I prevent overfitting?",
+    "variants": [
+      "How to reduce overfitting?",
+      "Ways to avoid overfitting"
+    ],
+    "answer": "Common remedies: get more data, use data augmentation, simplify the model, add regularisation (L1/L2, dropout), use early stopping, and check performance with cross-validation."
+  },
+  {
+    "id": 13,
+    "category": "Machine Learning",
+    "question": "What is underfitting?",
+    "variants": [],
+    "answer": "Underfitting means the model is too simple to capture the patterns in the data, so it performs poorly on both training and test data. Fixes include a more expressive model, better features or longer training."
+  },
+  {
+    "id": 14,
+    "category": "Machine Learning",
+    "question": "What is the bias-variance tradeoff?",
+    "variants": [],
+    "answer": "Bias is error from overly simple assumptions (underfitting); variance is error from sensitivity to the training set (overfitting). Making a model more complex usually lowers bias but raises variance, so we look for a balance."
+  },
+  {
+    "id": 15,
+    "category": "Machine Learning",
+    "question": "What is regularization?",
+    "variants": [
+      "What are L1 and L2 regularization?"
+    ],
+    "answer": "Regularisation adds a penalty for model complexity to the loss function — e.g. L1 (lasso) or L2 (ridge) penalties on weights — which discourages overfitting and often improves generalisation."
+  },
+  {
+    "id": 16,
+    "category": "Machine Learning",
+    "question": "What is gradient descent?",
+    "variants": [
+      "How does gradient descent work?"
+    ],
+    "answer": "Gradient descent is an optimisation algorithm that repeatedly moves model parameters in the direction that most reduces the loss, using the gradient (slope) of the loss. The step size is set by the learning rate."
+  },
+  {
+    "id": 17,
+    "category": "Machine Learning",
+    "question": "What is a learning rate?",
+    "variants": [],
+    "answer": "The learning rate controls how big each parameter update is during training. Too high and training diverges or oscillates; too low and training is very slow or gets stuck."
+  },
+  {
+    "id": 18,
+    "category": "Machine Learning",
+    "question": "What is a decision tree?",
+    "variants": [],
+    "answer": "A decision tree predicts by asking a sequence of yes/no questions about the features, splitting the data at each node until it reaches a leaf with a prediction. It is easy to interpret but can overfit."
+  },
+  {
+    "id": 19,
+    "category": "Machine Learning",
+    "question": "What is a random forest?",
+    "variants": [],
+    "answer": "A random forest is an ensemble of many decision trees, each trained on a random sample of rows and features. Averaging their votes reduces overfitting and usually beats a single tree."
+  },
+  {
+    "id": 20,
+    "category": "Machine Learning",
+    "question": "What is k-means clustering?",
+    "variants": [
+      "How does k-means work?"
+    ],
+    "answer": "K-means is an unsupervised algorithm that splits data into k clusters by repeatedly assigning each point to the nearest cluster centre and then moving each centre to the mean of its points."
+  },
+  {
+    "id": 21,
+    "category": "Machine Learning",
+    "question": "What is feature engineering?",
+    "variants": [],
+    "answer": "Feature engineering is creating, transforming or selecting input variables so a model can learn better — for example extracting the day of week from a date or scaling numeric values."
+  },
+  {
+    "id": 22,
+    "category": "Machine Learning",
+    "question": "What are hyperparameters?",
+    "variants": [
+      "Parameters vs hyperparameters"
+    ],
+    "answer": "Hyperparameters are settings chosen before training rather than learned from data, such as learning rate, number of trees, or batch size. They are tuned using a validation set or cross-validation."
+  },
+  {
+    "id": 23,
+    "category": "Deep Learning",
+    "question": "What is a neural network?",
+    "variants": [
+      "How do neural networks work?"
+    ],
+    "answer": "A neural network is a model made of layers of connected units (neurons). Each neuron computes a weighted sum of its inputs and applies an activation function; training adjusts the weights to reduce the loss."
+  },
+  {
+    "id": 24,
+    "category": "Deep Learning",
+    "question": "What is deep learning?",
+    "variants": [
+      "Define deep learning"
+    ],
+    "answer": "Deep learning uses neural networks with many layers. Each layer learns increasingly abstract features, which makes deep learning very effective for images, audio and text when there is enough data."
+  },
+  {
+    "id": 25,
+    "category": "Deep Learning",
+    "question": "What is backpropagation?",
+    "variants": [],
+    "answer": "Backpropagation is the algorithm that computes the gradient of the loss with respect to every weight in a neural network by applying the chain rule backwards from the output layer. Those gradients are then used by gradient descent."
+  },
+  {
+    "id": 26,
+    "category": "Deep Learning",
+    "question": "What is an activation function?",
+    "variants": [
+      "Why use ReLU?"
+    ],
+    "answer": "An activation function adds non-linearity to a neuron's output so the network can learn complex patterns. Common choices are ReLU, sigmoid, tanh and softmax (for output probabilities)."
+  },
+  {
+    "id": 27,
+    "category": "Deep Learning",
+    "question": "What is a convolutional neural network?",
+    "variants": [
+      "What is a CNN?",
+      "How do CNNs work?"
+    ],
+    "answer": "A CNN is a neural network designed for grid data like images. Convolution layers slide small filters over the input to detect local patterns such as edges and textures, and stacked layers combine them into objects."
+  },
+  {
+    "id": 28,
+    "category": "Deep Learning",
+    "question": "What is a recurrent neural network?",
+    "variants": [
+      "What is an RNN?"
+    ],
+    "answer": "An RNN processes sequences one step at a time while keeping a hidden state that carries information from earlier steps, which makes it suitable for text, speech and time series."
+  },
+  {
+    "id": 29,
+    "category": "Deep Learning",
+    "question": "What is an LSTM?",
+    "variants": [
+      "Long short-term memory network"
+    ],
+    "answer": "LSTM (Long Short-Term Memory) is a type of RNN with gates that control what to remember and forget. This helps it learn long-range dependencies that plain RNNs struggle with because of vanishing gradients."
+  },
+  {
+    "id": 30,
+    "category": "Deep Learning",
+    "question": "What is a transformer?",
+    "variants": [
+      "How do transformers work?"
+    ],
+    "answer": "A transformer is a neural network architecture built on self-attention instead of recurrence. It processes all tokens in parallel and is the basis of modern language models like BERT and GPT."
+  },
+  {
+    "id": 31,
+    "category": "Deep Learning",
+    "question": "What is attention in neural networks?",
+    "variants": [
+      "What is self-attention?"
+    ],
+    "answer": "Attention lets a model weigh how relevant each part of the input is when producing each part of the output. Self-attention computes these weights between all pairs of tokens in a sequence."
+  },
+  {
+    "id": 32,
+    "category": "Deep Learning",
+    "question": "What is dropout?",
+    "variants": [],
+    "answer": "Dropout is a regularisation technique that randomly switches off a fraction of neurons during each training step, forcing the network not to rely on any single neuron and reducing overfitting."
+  },
+  {
+    "id": 33,
+    "category": "Deep Learning",
+    "question": "What is transfer learning?",
+    "variants": [
+      "What is fine-tuning?"
+    ],
+    "answer": "Transfer learning reuses a model pre-trained on a large dataset as the starting point for a new task, then fine-tunes it on a smaller dataset. It saves time and works well when labelled data is limited."
+  },
+  {
+    "id": 34,
+    "category": "Deep Learning",
+    "question": "What is a GAN?",
+    "variants": [
+      "Generative adversarial network"
+    ],
+    "answer": "A generative adversarial network has two networks trained against each other: a generator that creates fake samples and a discriminator that tries to tell real from fake. Over time the generator produces realistic data."
+  },
+  {
+    "id": 35,
+    "category": "Deep Learning",
+    "question": "What is an epoch?",
+    "variants": [
+      "Epoch vs batch vs iteration"
+    ],
+    "answer": "An epoch is one full pass of the training algorithm over the entire training dataset. Training usually runs for many epochs."
+  },
+  {
+    "id": 36,
+    "category": "Deep Learning",
+    "question": "What is batch size?",
+    "variants": [],
+    "answer": "Batch size is the number of training examples used to compute one gradient update. Larger batches give smoother gradients but need more memory."
+  },
+  {
+    "id": 37,
+    "category": "NLP",
+    "question": "What is natural language processing?",
+    "variants": [
+      "What is NLP?"
+    ],
+    "answer": "Natural language processing (NLP) is the area of AI that lets computers understand, analyse and generate human language — e.g. translation, sentiment analysis, chatbots and summarisation."
+  },
+  {
+    "id": 38,
+    "category": "NLP",
+    "question": "What is tokenization?",
+    "variants": [
+      "How do you tokenize text?"
+    ],
+    "answer": "Tokenisation splits text into smaller units called tokens — words, sub-words or characters — so it can be processed by a model."
+  },
+  {
+    "id": 39,
+    "category": "NLP",
+    "question": "What are stopwords?",
+    "variants": [],
+    "answer": "Stopwords are very common words such as 'the', 'is' and 'and' that carry little meaning on their own. Classic NLP pipelines often remove them before analysis."
+  },
+  {
+    "id": 40,
+    "category": "NLP",
+    "question": "What is the difference between stemming and lemmatization?",
+    "variants": [
+      "Stemming vs lemmatization"
+    ],
+    "answer": "Stemming chops word endings with simple rules (studies → studi), while lemmatisation uses vocabulary and grammar to return the dictionary form (studies → study). Lemmatisation is more accurate but slower."
+  },
+  {
+    "id": 41,
+    "category": "NLP",
+    "question": "What is TF-IDF?",
+    "variants": [
+      "Term frequency inverse document frequency"
+    ],
+    "answer": "TF-IDF (term frequency–inverse document frequency) scores a word highly when it appears often in one document but rarely across the collection, so it highlights words that are distinctive for that document."
+  },
+  {
+    "id": 42,
+    "category": "NLP",
+    "question": "What is cosine similarity?",
+    "variants": [
+      "How is similarity between texts measured?"
+    ],
+    "answer": "Cosine similarity measures the angle between two vectors: 1 means they point the same way, 0 means unrelated. In NLP it compares text vectors such as TF-IDF or embeddings regardless of text length."
+  },
+  {
+    "id": 43,
+    "category": "NLP",
+    "question": "What are word embeddings?",
+    "variants": [
+      "What is word2vec?"
+    ],
+    "answer": "Word embeddings are dense vectors that represent words so that words with similar meanings are close together. Word2Vec, GloVe and contextual embeddings from transformers are common examples."
+  },
+  {
+    "id": 44,
+    "category": "NLP",
+    "question": "What is sentiment analysis?",
+    "variants": [],
+    "answer": "Sentiment analysis classifies the opinion expressed in text as positive, negative or neutral, for example in product reviews or social media posts."
+  },
+  {
+    "id": 45,
+    "category": "NLP",
+    "question": "What is named entity recognition?",
+    "variants": [
+      "What is NER?"
+    ],
+    "answer": "Named entity recognition (NER) finds and labels names of people, organisations, places, dates and similar entities in text."
+  },
+  {
+    "id": 46,
+    "category": "Computer Vision",
+    "question": "What is computer vision?",
+    "variants": [],
+    "answer": "Computer vision is the field of AI that enables computers to interpret images and video — for example classifying images, detecting objects, segmenting regions and tracking motion."
+  },
+  {
+    "id": 47,
+    "category": "Computer Vision",
+    "question": "What is object detection?",
+    "variants": [
+      "What is YOLO?"
+    ],
+    "answer": "Object detection finds objects in an image and returns, for each one, a bounding box, a class label and a confidence score. YOLO and Faster R-CNN are popular detectors."
+  },
+  {
+    "id": 48,
+    "category": "Computer Vision",
+    "question": "What is the difference between image classification and object detection?",
+    "variants": [],
+    "answer": "Classification assigns one label to the whole image; detection locates every object with a bounding box and labels each one; segmentation goes further and labels each pixel."
+  },
+  {
+    "id": 49,
+    "category": "Computer Vision",
+    "question": "What is data augmentation?",
+    "variants": [],
+    "answer": "Data augmentation creates new training examples by transforming existing ones — flipping, rotating, cropping or changing colour for images — which helps models generalise and reduces overfitting."
+  },
+  {
+    "id": 50,
+    "category": "Evaluation & Data",
+    "question": "Why do we split data into training, validation and test sets?",
+    "variants": [
+      "What is a train test split?",
+      "Why do we need a test set?"
+    ],
+    "answer": "The training set is used to fit the model, the validation set to tune hyperparameters and choose models, and the test set — touched only once at the end — to estimate how the model will perform on truly new data."
+  },
+  {
+    "id": 51,
+    "category": "Evaluation & Data",
+    "question": "What is cross-validation?",
+    "variants": [
+      "What is k-fold cross validation?"
+    ],
+    "answer": "Cross-validation splits the data into k folds, trains on k−1 folds and validates on the remaining one, repeating k times. Averaging the scores gives a more reliable estimate than a single split."
+  },
+  {
+    "id": 52,
+    "category": "Evaluation & Data",
+    "question": "What is a confusion matrix?",
+    "variants": [],
+    "answer": "A confusion matrix is a table of true positives, false positives, true negatives and false negatives for a classifier. Metrics like precision and recall are computed from it."
+  },
+  {
+    "id": 53,
+    "category": "Evaluation & Data",
+    "question": "What is the difference between precision and recall?",
+    "variants": [
+      "Precision vs recall"
+    ],
+    "answer": "Precision is the share of predicted positives that are correct; recall is the share of actual positives that were found. Precision matters when false alarms are costly, recall when missing a case is costly."
+  },
+  {
+    "id": 54,
+    "category": "Evaluation & Data",
+    "question": "What is the F1 score?",
+    "variants": [
+      "What is F1?"
+    ],
+    "answer": "The F1 score is the harmonic mean of precision and recall. It is useful when classes are imbalanced and you need a single number that balances both."
+  },
+  {
+    "id": 55,
+    "category": "Evaluation & Data",
+    "question": "Why is accuracy misleading on imbalanced data?",
+    "variants": [
+      "What is class imbalance?",
+      "How to handle imbalanced datasets?"
+    ],
+    "answer": "If 95% of samples belong to one class, a model that always predicts that class gets 95% accuracy while being useless. Use precision, recall, F1, ROC-AUC or a confusion matrix instead."
+  },
+  {
+    "id": 56,
+    "category": "Evaluation & Data",
+    "question": "What is data leakage?",
+    "variants": [],
+    "answer": "Data leakage happens when information from the test set or from the future sneaks into training — e.g. scaling before splitting or duplicate samples across splits — giving unrealistically good scores."
+  }
+]
